@@ -1,6 +1,6 @@
 @font-face {
-  font-family: gilroy-medium;
-  src: url("./Gilroy-Medium.ttf");
+  font-family: ilroy;
+  src: url("./Gilroy-Regular.woff2");
 }
 @font-face {
   font-family: gilroy-regular;
@@ -17,7 +17,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: gilroy;
+  font-family: ilroy;
   box-sizing: border-box;
 }
 html,
