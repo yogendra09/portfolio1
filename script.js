@@ -1,4 +1,9 @@
 
+document.querySelector("#main").addEventListener("mousemove",function(dets){
+  document.querySelector("#crsr").style.top = `${dets.clientY}px`;
+  document.querySelector("#crsr").style.left = `${dets.clientX}px`;
+})
+
 
 var flag = 0;
 
