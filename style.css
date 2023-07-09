@@ -30,12 +30,11 @@ body {
 }
 #crsr{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 20px;
-  width: 20px;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) .6s;
+  height: 15px;
+  width: 15px;
   border-radius: 50%;
-  background-color: #000;
+  background-color: palevioletred;
   z-index: 999999;
 }
 #home {
